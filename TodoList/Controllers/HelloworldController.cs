@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using TodoList.Model;
 
 namespace TodoList.Controllers
 {
@@ -21,9 +21,13 @@ namespace TodoList.Controllers
         }
 
         [HttpGet]
-        public string Get()
+        public Items Get()
         {
-            return "Helloworld";
+            var item = new Items();
+            item.Id = "1";
+            item.Task = "HelloWorld!";
+            item.Data = "2021/7/25 2:31";
+            return item;
         }
     }
 }

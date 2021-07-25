@@ -27,7 +27,7 @@ namespace TodoList.Server
                 {
                     Items item = new();
                     item.Id = reader["Id"].ToString();
-                    item.Item = reader["Item"].ToString();
+                    item.Task = reader["Item"].ToString();
                     item.Tags = reader["Tags"].ToString();
                     item.SetTime = reader.GetDateTime("SetTime");
                     item.FinTime = reader.GetDateTime("FinTime");
