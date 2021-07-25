@@ -7070,19 +7070,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\何能尔\\.nuget\\packages\\": {}
+    "C:\\Users\\Cibe Lee\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\qsync\\Program\\TodoList\\TodoList\\TodoList\\TodoList.csproj",
+      "projectUniqueName": "G:\\todoteam\\todoteam-end\\TodoList\\TodoList.csproj",
       "projectName": "TodoList",
-      "projectPath": "F:\\qsync\\Program\\TodoList\\TodoList\\TodoList\\TodoList.csproj",
-      "packagesPath": "C:\\Users\\何能尔\\.nuget\\packages\\",
-      "outputPath": "F:\\qsync\\Program\\TodoList\\TodoList\\TodoList\\obj\\",
+      "projectPath": "G:\\todoteam\\todoteam-end\\TodoList\\TodoList.csproj",
+      "packagesPath": "C:\\Users\\Cibe Lee\\.nuget\\packages\\",
+      "outputPath": "G:\\todoteam\\todoteam-end\\TodoList\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\何能尔\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cibe Lee\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7090,7 +7094,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.cnblogs.com/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -7143,7 +7148,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
