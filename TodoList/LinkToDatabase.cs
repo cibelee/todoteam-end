@@ -9,10 +9,10 @@ namespace TodoList
 {
     public class LinkToDatabase
     {
-        const string server = "rm-wz9075ii95db86f9oro.mysql.rds.aliyuncs.com";
+        const string server = "1";
         const string database = "todolist";
-        const string user_id = "iewehzil";
-        const string password = "uV9!aOCHjR!3";
+        const string user_id = "2;
+        const string password = "3";
 
         public static MySqlConnection LinktoDB()
         {
